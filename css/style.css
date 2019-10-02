@@ -72,6 +72,70 @@ header nav a {
   line-height: 25px;
 }
 
+.welcome {
+  background: url(../assets/img/bgblue.png)
+}
+.welcome h1 {
+  margin-top: 200px;
+  font-size: 60px;
+}
+.welcome h1, .welcome h4 {
+  color: white;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.container-form {
+  margin-top: 100px;
+  width: 90%;
+  background: white;
+  padding: 40px 30px;
+  border-radius: 6px;
+  margin-bottom: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.welcome h3 {
+  color: black;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 30px
+}
+.input-group .form-control {
+  margin-bottom: 20px;
+}
+.form-control {
+  border-radius: 6px;
+}
+.create {
+  padding: 10px 18px;
+  background: blue;
+  color: white;
+  display: inline-block;
+  margin: 0 auto;
+  border-radius: 6px;
+}
+.container-form h4 {
+  text-align: center;
+  color: grey;
+  margin-bottom: 20px;
+}
+.google, .github {
+  padding: 10px 18px;
+  background: lightblue;
+  color: darkblue;
+  border-radius: 6px;
+  border: 1px solid darkblue;
+}
+.container-create-account{
+  text-align: center;
+}
+.container-buttons {
+  text-align: center;
+}
+.google {
+  margin-right: 20px;
+}
 @media screen and (max-width: 1199px){
   .nascondi {
     display: none;
@@ -79,5 +143,9 @@ header nav a {
   .visibile{
     display: inline;
   }
-
+}
+@media screen and (max-width:1110px) {
+  .welcome h1 {
+    font-size: 40px;
+  }
 }
