@@ -35,3 +35,49 @@ header nav a {
   font-weight: bold;
   color: grey;
 }
+.top-nav {
+  border-bottom: 1px solid lightgrey;
+}
+
+.bottom-nav{
+  margin-top: 10px;
+}
+.bottom-nav ul{
+  list-style-type: none;
+  line-height: 35px;
+}
+.bottom-nav li {
+  display: inline;
+}
+.bottom-nav ul a {
+  text-decoration: none;
+  color: grey;
+}
+.signup {
+  padding: 8px 12px;
+  background: white;
+  color: blue;
+  border: 1px solid blue;
+  border-radius: 8px;
+  line-height: 35px
+}
+.right {
+  text-align: right;
+}
+.visibile {
+  display: none
+}
+.glyphicon-menu-hamburger {
+  font-size: 25px;
+  line-height: 25px;
+}
+
+@media screen and (max-width: 1199px){
+  .nascondi {
+    display: none;
+  }
+  .visibile{
+    display: inline;
+  }
+
+}
