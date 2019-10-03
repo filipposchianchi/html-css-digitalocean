@@ -119,7 +119,7 @@ header nav a {
   margin: 0 auto;
   border-radius: 6px;
 }
-.container-form h4 {
+#welcome .container-form h4 {
   text-align: center;
   color: grey;
   margin-bottom: 20px;
@@ -198,14 +198,14 @@ header nav a {
   margin-bottom: 30px;
 }
 
-#deploy h5 {
-  font-size: 20px;
-  margin-top: 5px;
-  color: grey;;
+#deploy h3 {
+  font-size: 25px;
+  margin-top: 8px;
+  color: darkblue
 }
 #deploy p {
   color: grey;
-  font-size: 15px;
+  margin-bottom: 40px;
 }
 .prima-sottoriga {
   margin-bottom: 30px;
@@ -252,9 +252,11 @@ header nav a {
   font-size: 17px;
 }
 #built a {
+  display: inline-block;
   text-decoration: none;
   color: blue;
   font-weight: bold;
+  margin-bottom: 50px;
 }
 
 #service {
@@ -297,6 +299,43 @@ header nav a {
   padding-left: 5px;
 }
 
+#development {
+  background: #f3f5f9;
+}
+#development h2 {
+  text-align: center;
+  color: darkblue;
+  margin-top: 80px;
+}
+#development .wrapper {
+  width: 70%;
+  background: white;
+  padding: 50px 0;
+}
+#development .container-img {
+  text-align: center;
+}
+#development p {
+  text-align: center;
+  color: grey;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#development .wrapper-centro {
+  text-align: center;
+}
+#development span {
+  display: block;
+  color: grey;
+  margin-bottom: 20px;
+}
+#development a {
+  color: blue;
+  display: block;
+  text-decoration: none;
+  font-weight: bold;
+}
 
 @media screen and (max-width: 1199px){
   .nascondi {
