@@ -196,6 +196,11 @@ header nav a {
 #deploy h3 {
   font-size: 20px;
   margin-top: 5px;
+  color: darkblue;
+}
+#deploy p {
+  color: grey;
+  font-size: 15px;
 }
 
 
