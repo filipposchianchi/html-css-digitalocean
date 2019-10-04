@@ -277,26 +277,24 @@ header nav a {
 .codice {
   color: white;
   font-weight: bold;
-  margin-right: 5%;
 }
 .citta {
   color: grey;
-  margin-right: 10%
 }
-.test {
+.link {
   color: blue;
   font-weight: bold;
   text-decoration: none;
-  text-align: right;
 }
-#service ul {
-  list-style-type: none;
+.table > tbody > tr > .nobord {
+  border-top: 0;
 }
-#service li {
-  border-bottom: 1px solid darkgrey;
-  margin-bottom: 20px;
-  padding-bottom: 5px;
-  padding-left: 5px;
+.table > tbody > th > .nobord {
+  border-top: 0;
+}
+#service .table {
+  margin-top: 30px;
+  margin-bottom: 80px;
 }
 
 #development {
