@@ -390,6 +390,17 @@ footer .container-fluid .wrapper .row {
 }
 footer img {
   margin-right: 10px;
+  margin-bottom: 20px
+}
+.wrapper2 {
+  text-align: right;
+  margin-bottom: 50px;
+}
+footer .wrapper2 img {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+  color: white;
 }
 
 
