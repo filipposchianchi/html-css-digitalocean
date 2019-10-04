@@ -262,7 +262,7 @@ header nav a {
 #service {
   background: #031b4e;
 }
-.wrapper {
+#service .wrapper {
   width: 80%;
   margin: 0 auto;
   margin-top:50px;
@@ -309,6 +309,8 @@ header nav a {
   width: 70%;
   background: white;
   padding: 50px 0;
+  margin: 20px auto;
+
 }
 #development .container-img {
   text-align: center;
@@ -334,6 +336,62 @@ header nav a {
   text-decoration: none;
   font-weight: bold;
 }
+
+#get-started {
+  background: url(../assets/img/bgfondo.png);
+}
+#get-started h2 {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 30px;
+}
+#get-started .wrapper {
+  text-align: center;
+
+}
+#get-started a {
+  display: inline-block;
+  padding: 8px 15px;
+  color: #0147fe;
+  background: white;
+  font-size: 18px;
+  border-radius: 6px;
+  text-decoration: none;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+footer{
+  background: #010e28;
+}
+footer h4 {
+  color: white;
+  margin-top: 50px;
+}
+footer ul {
+  list-style-type: none;
+  margin-bottom: 50px;
+}
+footer li {
+  color: grey;
+}
+footer hr {
+  width: 1200px;
+  color grey;
+  display: inline-block;
+  margin: 50px auto;
+}
+footer .wrapper{
+  border-top: 1px solid grey;
+}
+footer .container-fluid .wrapper .row {
+  margin-top: 30px;
+}
+footer img {
+  margin-right: 10px;
+}
+
 
 @media screen and (max-width: 1199px){
   .nascondi {
