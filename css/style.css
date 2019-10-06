@@ -47,7 +47,7 @@ header nav a {
 }
 .bottom-nav ul{
   list-style-type: none;
-  line-height: 35px;
+  margin-top: 10px
 }
 .bottom-nav li {
   display: inline;
@@ -55,6 +55,31 @@ header nav a {
 .bottom-nav ul a {
   text-decoration: none;
   color: grey;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 17px;
+  background-color: #ffffff;
+  width: 100vh;
+  z-index: 1;
+}
+.dropdown-content h6 {
+  height: 30px;
+  margin-top: 100px;
+  text-align: center;
+}
+.dropdown:hover .dropdown-content{
+  display: block;
+}
+.dropdown:hover .dropdownbtn {
+  color: darkblue;
 }
 .signup {
   padding: 8px 12px;
